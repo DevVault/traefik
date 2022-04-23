@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - mocha-webpack > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - node-sass > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > html-webpack-plugin > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > inquirer > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > node-sass > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > ouch > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > webpack-bundle-analyzer > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > webpack-merge > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - eslint > table > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - eslint-plugin-vue > vue-eslint-parser > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/core > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > node-sass > sass-graph > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > babel-plugin-transform-imports > babel-types > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > node-sass > gaze > globule > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > webpack-dev-server > portfinder > async > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
+    - '@quasar/app > @quasar/babel-preset-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-04-23T02:06:30.201Z'
