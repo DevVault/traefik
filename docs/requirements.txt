@@ -1,5 +1,5 @@
 mkdocs==1.2.2
-pymdown-extensions==7.0
+pymdown-extensions==10.0
 mkdocs-bootswatch==1.0
 mkdocs-traefiklabs>=100.0.7
 markdown-include==0.5.1
