@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM alpine:3.15
 # Feel free to add below any helpful dependency for debugging.
 # iproute2 is for ss.
 RUN apk --no-cache --no-progress add bash curl ca-certificates tzdata lsof iproute2 \
